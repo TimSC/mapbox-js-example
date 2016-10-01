@@ -1,0 +1,8 @@
+{
+  "tilejson": "2.1.0",
+  "tiles": [
+    "https://api.mapbox.com/v4/mapbox.mapbox-streets-v7/{z}/{x}/{y}.vector.pbf?access_token=<your_api_key>"
+  ],
+  "minzoom": 0,
+  "maxzoom": 12
+}

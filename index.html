@@ -1,0 +1,23 @@
+
+<html>
+<header>
+
+<script src='dist/mapbox-gl.js'></script>
+<link href='dist/mapbox-gl.css' rel='stylesheet' />
+
+</header>
+<body>
+
+<div id='map' style='width: 800px; height: 600px;'></div>
+<script>
+//mapboxgl.accessToken = 'api-key';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'style.json',
+    center: [-74.50, 40], // starting position
+    zoom: 9 // starting zoom
+});
+</script>
+
+</body>
+</html>
